@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background: #FFF6D1;
+  font-size: 20px;
+  font-family: sans-serif;
+  min-width: 800px;
+}
+li {
+  list-style: none;
+  width: 100%;
+}
+input, button {
+  font-size: 25px;
+  padding: 5px;
+}
+
+.wrapper {
+  max-width: 50%;
+  min-width: 650px;
+  height: 80%;
+  margin: 10% auto;
+  background: #D5CFF2;
+  box-shadow: 1px 1px 2px 2px #C593DC;
+}
+.item-list {
+  border-bottom: 1px solid #C593DC;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+span {
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+  min-width: 50px;
+  border-right: 1px solid #F1E3F8;
+  padding: 0 10px;
+  color: #62267E;
+}
+.item-content {
+  display: inline-block;
+  text-align: left;
+  width: 60%;
+}
+.item-delete, .item-change {
+  cursor: pointer;
+}
+.item-delete:hover, .item-change:hover {
+  color: #1E0CB6;
+  text-shadow: 0px 0px 3px #F1E0FF;
+  background: #D4B6EC;
+}
+.controlls {
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+.small {
+  font-size: 14px;
+  padding: 1px;
+}
+input.small {
+  width: 70%;
+}
